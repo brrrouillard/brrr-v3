@@ -1,0 +1,25 @@
+#Navbar-Section {
+    position:  fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: #fafafa;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+}
+
+#Navbar-Section a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #f4645f;
+    margin-right: 3%;
+    font-size: 140%;
+    transition-duration: 230ms;
+}
+
+#Navbar-Section a:hover {
+    transition-duration: 230ms;
+    text-decoration: underline;
+    color: #f4645f;
+}

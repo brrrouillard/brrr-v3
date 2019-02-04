@@ -1,0 +1,41 @@
+#Landing-Section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #525252;
+    background: #fafafa;
+    text-align: center;
+}
+
+#Landing-Section h1 {
+    margin: 0;
+    font-size: 450%;
+    font-weight: 100;
+}
+
+#Landing-Section h3 {
+    color: #f4645f;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+#Social-Container {
+    font-size: 200%;
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+}
+
+#Social-Container a {
+    padding: 0 3%;
+    margin-top: 1%;
+    color: #525252;
+}
+
+#Social-Container a:hover, #Social-Container a:active {
+    transition-duration: 130ms;
+    color: #3dbcb1;
+}
